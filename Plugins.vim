@@ -28,6 +28,9 @@ Plugin 'kergoth/vim-bitbake'
 " Plugin: unite.
 Plugin 'Shougo/unite.vim'
 
+" Plugin: vim-gitgutter
+Plugin 'airblade/vim-gitgutter'
+
 " All of your Plugins must be added before the following line.
 call vundle#end()
 " To ignore plugin indent changes, instead use:

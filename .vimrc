@@ -18,5 +18,14 @@ if has('mouse')
     set mouse=a
 endif
 
+if $TERM == "xterm"
+    set t_Co=256
+    colorscheme monokai-bold
+    hi Search cterm=NONE ctermfg=white ctermbg=green
+else
+    colorscheme black_is_the_color
+endif
+
+
 source $HOME/.vim/FileTypeSettings.vim
 source $HOME/.vim/Functions.vim
